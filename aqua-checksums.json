@@ -1,0 +1,119 @@
+{
+  "checksums": [
+    {
+      "id": "github_release/github.com/go-task/task/v3.45.5/task_darwin_amd64.tar.gz",
+      "checksum": "5A06E2266B4C4A679C48582922EC06A25F81365B5F65298EF11DCAFB9D379C2B",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/go-task/task/v3.45.5/task_darwin_arm64.tar.gz",
+      "checksum": "C76EC08AD1E64B012884F3BE0084B149882CB6D77741C2D94F2AEBF34805703C",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/go-task/task/v3.45.5/task_linux_amd64.tar.gz",
+      "checksum": "E547EA2A47F5240657FDC89EA776BAA90D628A1F2748242EAA7478FD92BFFD40",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/go-task/task/v3.45.5/task_linux_arm64.tar.gz",
+      "checksum": "F15170659A8F538B976967E281537031693643EE63FC41C2CFCAC63EFCDF25E7",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/go-task/task/v3.45.5/task_windows_amd64.zip",
+      "checksum": "462687C285A07450DE17F2AF696D12C3C9536651E3D0085E483D56AB6CD0DB4F",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/go-task/task/v3.45.5/task_windows_arm64.zip",
+      "checksum": "2A9B3BEC36C188ED0BAE5C1E65F7518CEA8CCA763B9C56268886C548EF5CECF4",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/google/go-jsonnet/v0.21.0/go-jsonnet_Darwin_arm64.tar.gz",
+      "checksum": "398189A264E31A2C1316EED8EE6308306A221FD10B72F405DEF0100D295EFEAC",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/google/go-jsonnet/v0.21.0/go-jsonnet_Darwin_x86_64.tar.gz",
+      "checksum": "A6CEE4B381D2319FA807D7A7BF8A4ECF2D0CCA64E2BCD53EEAA575CE1F7689A4",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/google/go-jsonnet/v0.21.0/go-jsonnet_Linux_arm64.tar.gz",
+      "checksum": "4A263DA605DBE2EDB99529F495266211062FAC476789F2119408BC223338F1D6",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/google/go-jsonnet/v0.21.0/go-jsonnet_Linux_x86_64.tar.gz",
+      "checksum": "AD3181FDE77726B02D17EB4E72687020BF2CB35B9336CDEAACA4783C7FF104F7",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/google/go-jsonnet/v0.21.0/go-jsonnet_Windows_arm64.tar.gz",
+      "checksum": "5244713590B976D8CB675ABA57434B2FA667663C299FE777A478C01C86E46341",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/google/go-jsonnet/v0.21.0/go-jsonnet_Windows_x86_64.tar.gz",
+      "checksum": "81D71A287EE5DFD0860831EEAC281A7327CE8876D5FE9A8B7E19726DBBC0CE4F",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/pnpm/pnpm/v10.25.0/pnpm-linux-arm64",
+      "checksum": "2BBBC1BE51CA359E8CE36D5EA04CB6150D3FF91C869946E8A17120D8B4510A4D",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/pnpm/pnpm/v10.25.0/pnpm-linux-x64",
+      "checksum": "856B2D764A362D667F8B3FE28632C7FF1870557E5B92A9ED4BA1FDCA35924A1D",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/pnpm/pnpm/v10.25.0/pnpm-macos-arm64",
+      "checksum": "81533F4A222939681EAAC5A5CB4673416A434C16EEEAA9441E699363173063C4",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/pnpm/pnpm/v10.25.0/pnpm-macos-x64",
+      "checksum": "458ADB599DFF0E6B98BA1CD5C38B81D415ED132250B9C29D5532563B2A0F0C32",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/pnpm/pnpm/v10.25.0/pnpm-win-x64.exe",
+      "checksum": "F028FE36E71DDEB034D113800221EA27934BB84717BACE0388069F896C55474F",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "http/nodejs.org/dist/v24.12.0/node-v24.12.0-darwin-arm64.tar.gz",
+      "checksum": "319F221ADC5E44FF0ED57E8A441B2284F02B8DC6FC87B8EB92A6A93643FD8080",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "http/nodejs.org/dist/v24.12.0/node-v24.12.0-darwin-x64.tar.gz",
+      "checksum": "B82EA4C62FD08E250CAB59D625E75D77CC5B0A3D60C6698EBEE4545C88A169C5",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "http/nodejs.org/dist/v24.12.0/node-v24.12.0-linux-arm64.tar.gz",
+      "checksum": "9B2A2EEB98A8EB37361224E2A1D060300AD2DD143AF58DFDB16DE785DF0F1228",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "http/nodejs.org/dist/v24.12.0/node-v24.12.0-linux-x64.tar.gz",
+      "checksum": "6159227E0AF7D7C3C6BB2FA900452B04A6CB8841A702A79ACC613209D70B04D0",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "http/nodejs.org/dist/v24.12.0/node-v24.12.0-win-x64.zip",
+      "checksum": "9C125F61AE947B52E779095830F9CAC267846A043EF7192183C84016AAAD2812",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "registries/github_content/github.com/aquaproj/aqua-registry/v4.445.0/registry.yaml",
+      "checksum": "6CEAD4D5BEE5E940F6338BD83D0822E12C48B63A37FE632629C31842F3F74EE4",
+      "algorithm": "sha256"
+    }
+  ]
+}
