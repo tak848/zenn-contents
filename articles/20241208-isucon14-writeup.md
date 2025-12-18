@@ -132,6 +132,7 @@ chair_locationsの履歴を，total_distanceとtotal_distance_updated_at取得�
 やりながら多少，別テーブルにしても良かった感を感じていました。chairsのmiddlewareで不要なときも取得するようになっていたので…。
 
 :::details 雑に初期データをUPDATEして入れたクエリ
+
 ```sql
 UPDATE chairs
 JOIN (
@@ -188,26 +189,27 @@ SET
 ```sql
 UPDATE chairs
 JOIN (
-    SELECT 
-        cl.chair_id, 
-        cl.longitude, 
+    SELECT
+        cl.chair_id,
+        cl.longitude,
         cl.latitude
-    FROM 
+    FROM
         chair_locations cl
     JOIN (
-        SELECT 
-            chair_id, 
+        SELECT
+            chair_id,
             MAX(created_at) AS max_created_at
-        FROM 
+        FROM
             chair_locations
-        GROUP BY 
+        GROUP BY
             chair_id
     ) latest ON cl.chair_id = latest.chair_id AND cl.created_at = latest.max_created_at
 ) latest_location ON chairs.id = latest_location.chair_id
-SET 
+SET
     chairs.longitude = latest_location.longitude,
     chairs.latitude = latest_location.latitude;
 ```
+
 :::
 
 唯一ブランチ切りました。一人だったんで…。
@@ -248,7 +250,6 @@ pproteinのパワーでpgoのデータを簡単に取れたんですが，スコ
 - SSE，やろうとおもったけど断念した。
   - DOS攻撃，Retry時間レスポンスで変えられることに気付いて広げたらめっちゃ点数あがってそのままでﾖｼ!と判断した。一人だしまあ間違ってはいなかったかとは思う
 - Envcheckを実行するようアナウンスあったので，余裕のあるうちにやっておけば良かった。
-
 
 ## 個人的に便利だったアプリやツール
 

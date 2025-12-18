@@ -99,7 +99,6 @@ https://isucon.net/archives/56959385.html
 公式のISUCON問題以外にも，[@catatsuy](https://github.com/catatsuy)さんがメンテしてくださっている「private-isu」もあるので，是非見てみてください。
 https://github.com/catatsuy/private-isu
 
-
 ## 具体的にどんなことをするの？
 
 色んなサービスが出てきてワクワクしてきましたよね。実際にISUCONに取り組むときの基本的な流れを紹介します。
@@ -135,12 +134,12 @@ topコマンドなどを使用してCPU使用率を確認しながらベンチ�
 
 ここからは色々な手段でチューニングを行っていきます。
 
-* DBにインデックスを貼る（これだけで結構最初はスコアが上がります。個人開発などではなかなか意識できない領域なので，初めて大規模サービスを触る勉強になります。）
-* [このような](https://github.com/isucon/isucon13/blob/main/webapp/go/livestream_handler.go#L487-L527)アプリ上のN+1問題を解消する
-* 謎にどでかい無駄なクエリ（[このような](https://github.com/TAK848/isucon14/blob/94ddfaca610f1ca48bc4a59329a4c8c409e0c980/go/owner_handlers.go#L198-L218)通称観光名所を消す）
-* データの持ち方を変える
-* データをキャッシュする
-* サーバー・DBを分割する
+- DBにインデックスを貼る（これだけで結構最初はスコアが上がります。個人開発などではなかなか意識できない領域なので，初めて大規模サービスを触る勉強になります。）
+- [このような](https://github.com/isucon/isucon13/blob/main/webapp/go/livestream_handler.go#L487-L527)アプリ上のN+1問題を解消する
+- 謎にどでかい無駄なクエリ（[このような](https://github.com/TAK848/isucon14/blob/94ddfaca610f1ca48bc4a59329a4c8c409e0c980/go/owner_handlers.go#L198-L218)通称観光名所を消す）
+- データの持ち方を変える
+- データをキャッシュする
+- サーバー・DBを分割する
 
 など，色々できることはたくさんあります。
 

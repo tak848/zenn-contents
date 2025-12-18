@@ -191,12 +191,12 @@ $ ./easyrsa build-ca
 
 以降，以下のファイルを使用します。
 
-* `~/openvpn-ca/pki/ca.crt`を，検証用のCAとして，サーバー・クライアント両方に登録
-* `~/openvpn-ca/pki/dh.pem`を，TLSのパラメータとして，サーバーに登録
-* `~/openvpn-ca/pki/issued/client-example.crt`を，クライアント側の証明書として，クライアントに登録
-* `~/openvpn-ca/pki/private/client-example.key`を，クライアント側の証明書の秘密鍵として，クライアントに登録
-* `~/openvpn-ca/pki/issued/server-example.crt`を，サーバー側の証明書として，サーバーに登録
-* `~/openvpn-ca/pki/private/server-example.key`を，サーバー側の証明書の秘密鍵として，サーバーに登録
+- `~/openvpn-ca/pki/ca.crt`を，検証用のCAとして，サーバー・クライアント両方に登録
+- `~/openvpn-ca/pki/dh.pem`を，TLSのパラメータとして，サーバーに登録
+- `~/openvpn-ca/pki/issued/client-example.crt`を，クライアント側の証明書として，クライアントに登録
+- `~/openvpn-ca/pki/private/client-example.key`を，クライアント側の証明書の秘密鍵として，クライアントに登録
+- `~/openvpn-ca/pki/issued/server-example.crt`を，サーバー側の証明書として，サーバーに登録
+- `~/openvpn-ca/pki/private/server-example.key`を，サーバー側の証明書の秘密鍵として，サーバーに登録
 
 `/etc/openvpn/`配下に移動しておくと，後で楽です。
 
@@ -312,7 +312,6 @@ push "dhcp-option DNS 192.168.1.1"
 ```
 
 #### 最終的なconfファイル例
-
 
 :::details server.confの例
 
@@ -702,7 +701,6 @@ remote myserver.example.com 1194 # サーバーのIPもしくはホスト名と�
 ```
 
 #### 最終的なovpnファイルの例
-
 
 :::details client.ovpnの例
 

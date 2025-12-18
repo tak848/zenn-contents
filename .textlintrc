@@ -21,6 +21,7 @@
              // 二重助詞の検出
              // 連続して同じ助詞が出た場合のみを検出
              "no-doubled-joshi": {
+                "strict": false,
                  "min_interval": 1,
                  "allow": [
                     "たり",
@@ -51,6 +52,7 @@
              // https://github.com/xl1/textlint-rule-no-kangxi-radicals
              // 康煕部首の検出
              "no-kangxi-radicals": true
-        }
+        },
+        "prefer-tari-tari": true
     }
 }
