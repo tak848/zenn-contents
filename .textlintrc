@@ -23,7 +23,8 @@
              "no-doubled-joshi": {
                  "min_interval": 1,
                  "allow": [
-                    "たり"
+                    "たり",
+                    "も"
                  ]
              },
              // https://github.com/azu/textlint-rule-sentence-length
