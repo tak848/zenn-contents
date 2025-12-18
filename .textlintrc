@@ -21,12 +21,15 @@
              // 二重助詞の検出
              // 連続して同じ助詞が出た場合のみを検出
              "no-doubled-joshi": {
-                 "min_interval": 1
+                 "min_interval": 1,
+                 "allow": [
+                    "たり"
+                 ]
              },
              // https://github.com/azu/textlint-rule-sentence-length
              // 一文の最大の長さ
              "sentence-length": {
-                 "max": 100
+                 "max": 120
              },
              // https://github.com/textlint-ja/textlint-rule-no-dropping-the-ra
              // ら抜き言葉を使用しない
