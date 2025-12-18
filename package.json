@@ -16,6 +16,7 @@
   "packageManager": "pnpm@10.26.0+sha512.3b3f6c725ebe712506c0ab1ad4133cf86b1f4b687effce62a9b38b4d72e3954242e643190fc51fa1642949c735f403debd44f5cb0edd657abe63a8b6a7e1e402",
   "devDependencies": {
     "@textlint-ja/textlint-rule-preset-ai-writing": "^1.6.1",
+    "cc-sdd": "^2.0.3",
     "prettier": "^3.7.4",
     "textlint": "^15.5.0",
     "textlint-rule-prefer-tari-tari": "^1.0.3",
