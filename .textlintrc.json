@@ -20,11 +20,12 @@
       // https://github.com/textlint-ja/textlint-rule-no-doubled-joshi
       // 二重助詞の検出
       // 連続して同じ助詞が出た場合のみを検出
-      "no-doubled-joshi": {
-        "strict": false,
-        "min_interval": 1,
-        "allow": ["たり", "も"]
-      },
+      //   "no-doubled-joshi": {
+      //     "strict": false,
+      //     "min_interval": 1,
+      //     "allow": ["たり", "も"]
+      //   },
+      "no-doubled-joshi": false,
       // https://github.com/azu/textlint-rule-sentence-length
       // 一文の最大の長さ
       "sentence-length": {
