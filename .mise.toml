@@ -7,6 +7,6 @@ locked = false                                 # aqua backend 等で checksum �
 
 [tools]
 node = "24.15.0"
-pnpm = "10.33.0"
+pnpm = "12.3.4"
 "aqua:go-task/task" = "3.50.0"
 "aqua:google/go-jsonnet" = "0.22.0"
