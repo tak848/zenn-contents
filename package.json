@@ -13,7 +13,7 @@
   "dependencies": {
     "zenn-cli": "^0.4.7"
   },
-  "packageManager": "pnpm@10.33.0+sha512.10568bb4a6afb58c9eb3630da90cc9516417abebd3fabbe6739f0ae795728da1491e9db5a544c76ad8eb7570f5c4bb3d6c637b2cb41bfdcdb47fa823c8649319",
+  "packageManager": "pnpm@11.28.11+sha512.740184d10f81f5d5b165be88560ee7ba62406c4134896abc27a580109eec2f47c1e41d91251c944c2cababcb1c22461799ebb72de2ec625af2030b0e36c735a3",
   "devDependencies": {
     "@textlint-ja/textlint-rule-preset-ai-writing": "^1.6.3",
     "cc-sdd": "^3.0.2",
