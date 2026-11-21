@@ -18,7 +18,7 @@
     "@textlint-ja/textlint-rule-preset-ai-writing": "^1.6.3",
     "cc-sdd": "^3.0.2",
     "prettier": "^3.8.3",
-    "textlint": "^15.5.4",
+    "textlint": "^16.1.1",
     "textlint-rule-prefer-tari-tari": "^1.0.3",
     "textlint-rule-preset-japanese": "^10.0.4"
   }
